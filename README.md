@@ -1,23 +1,13 @@
-# Проект: Путешествие по России
+# Project - Russian travel
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+## Project description
 
-**Интро**
+This landing page contains information about places in Russia, photos, and descriptions of beautiful locations It
+was developed as a student project to practice HTML and CSS. It was made to work with Responsive Web Design to practice how to make webpages that respond to different screen sizes.
+Link to layout in Figma:https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+**Functionality:** page with several blocks, page navigation, links to third-party resources.
 
-**Figma**
+**Technologies** HTML, CSS, Flexbox, Grid
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+Link to project on GitHub Pages:
