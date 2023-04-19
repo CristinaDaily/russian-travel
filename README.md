@@ -10,4 +10,4 @@ Link to layout in Figma:https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint
 
 **Technologies** HTML, CSS, Flexbox, Grid
 
-Link to project on GitHub Pages:
+Link to project on GitHub Pages: https://cristinadaily.github.io/russian-travel/index.html
