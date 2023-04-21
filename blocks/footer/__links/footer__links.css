@@ -1,6 +1,7 @@
 .footer__links {
   display: grid;
-  grid-template-columns: repeat(5, min-content);
+  grid-template-columns: repeat(auto-fit, min-content);
+  grid-auto-flow: column;
   gap: 18px;
   box-sizing: border-box;
 }
@@ -8,6 +9,8 @@
 @media screen and (max-width: 767px) {
   .footer__links {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, min-content);
+    grid-template-rows: repeat(auto-fit, min-content);
+    grid-auto-flow: row;
+    gap: 32px;
   }
 }

@@ -4,7 +4,7 @@
 }
 
 @media (max-width: 1279px) {
-  .plases {
+  .places {
     width: calc(100% - 96px);
   }
 }

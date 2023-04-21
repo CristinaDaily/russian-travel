@@ -1,13 +1,15 @@
-.place__urleading {
+.place__url-heading {
   color: #aaaaaa;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 170%;
+  line-height: 12px;
+  letter-spacing: 2px;
   margin: 0;
 }
 
+/*
 @media (max-width: 1023px) {
   .place__urleading {
     font-size: 12px;
@@ -20,4 +22,4 @@
     font-size: 12px;
     line-height: 12px;
   }
-}
+}*/

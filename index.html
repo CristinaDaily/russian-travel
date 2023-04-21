@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Путешествия по России</title>
   </head>
-  <body>
+  <body class="black-background">
     <div class="page">
       <header class="header">
         <img
@@ -16,21 +16,16 @@
           alt="Лого Россия"
           class="header__logo"
         />
-        <nav>
-          <ul class="header__lang-links list">
-            <li>
-              <a
-                class="header__lang-link header__lang-link_active link"
-                href=""
-              >
-                Ru
-              </a>
-            </li>
-            <li>
-              <a class="header__lang-link link" href="">En</a>
-            </li>
-          </ul>
-        </nav>
+        <ul class="header__lang-links list">
+          <li>
+            <a class="header__lang-link header__lang-link_active link" href="">
+              Ru
+            </a>
+          </li>
+          <li>
+            <a class="header__lang-link link" href="">En</a>
+          </li>
+        </ul>
       </header>
       <main class="content">
         <section class="lead">
@@ -133,7 +128,7 @@
           <div class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <p class="place__urleading">URL</p>
+              <p class="place__url-heading">URL</p>
               <a
                 class="place__link link"
                 href="http://park-kosa.ru"
@@ -168,7 +163,7 @@
           <div class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <p class="place__urleading">URL</p>
+              <p class="place__url-heading">URL</p>
               <a
                 class="place__link link"
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -203,7 +198,7 @@
           <div class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
-              <p class="place__urleading">URL</p>
+              <p class="place__url-heading">URL</p>
               <a
                 class="place__link link"
                 href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
@@ -237,7 +232,7 @@
           <div class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <p class="place__urleading">URL</p>
+              <p class="place__url-heading">URL</p>
               <a
                 class="place__link link"
                 href="https://vk.com/baikalmile"
@@ -271,7 +266,7 @@
           <div class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <p class="place__urleading">URL</p>
+              <p class="place__url-heading">URL</p>
               <a
                 class="place__link link"
                 href="http://vodlozero.ru"
@@ -316,49 +311,50 @@
         </section>
       </main>
       <footer class="footer">
-        <ul class="footer__links list">
-          <li>
-            <a
-              href="https://yandex.ru/maps"
-              target="_blank"
-              class="footer__link link"
-              >Карты</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://yandex.ru/pogoda"
-              target="_blank"
-              class="footer__link link"
-              >Погода</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://rasp.yandex.ru"
-              target="_blank"
-              class="footer__link link"
-              >Расписание</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://calendar.yandex.ru"
-              target="_blank"
-              class="footer__link link"
-              >Календарь</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://travel.yandex.ru"
-              target="_blank"
-              class="footer__link link"
-              >Путешествия</a
-            >
-          </li>
-        </ul>
-
+        <nav>
+          <ul class="footer__links list">
+            <li>
+              <a
+                href="https://yandex.ru/maps"
+                target="_blank"
+                class="footer__link link"
+                >Карты</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://yandex.ru/pogoda"
+                target="_blank"
+                class="footer__link link"
+                >Погода</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://rasp.yandex.ru"
+                target="_blank"
+                class="footer__link link"
+                >Расписание</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://calendar.yandex.ru"
+                target="_blank"
+                class="footer__link link"
+                >Календарь</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://travel.yandex.ru"
+                target="_blank"
+                class="footer__link link"
+                >Путешествия</a
+              >
+            </li>
+          </ul>
+        </nav>
         <p class="footer__copyright">© 2020. Кристина</p>
       </footer>
     </div>

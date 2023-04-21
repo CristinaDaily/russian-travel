@@ -29,7 +29,7 @@
   transition: opacity 0.5s ease-out;
 }
 
-.cover__link:hover.cover__link::before {
+.cover__link:hover::before {
   opacity: 0.8;
 }
 
@@ -49,6 +49,5 @@
 @media screen and (max-width: 640px) {
   .cover__link {
     min-height: 200px;
-    width: 100%;
   }
 }

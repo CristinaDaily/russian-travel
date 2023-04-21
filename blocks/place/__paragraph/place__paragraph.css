@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-.place__paragraph:nth-child(2) {
+.place__paragraph:nth-child(2n) {
   margin-top: 26px;
 }
 
@@ -21,7 +21,6 @@
 
 @media (max-width: 640px) {
   .place__paragraph {
-    font-size: 16px;
     margin-left: 16px;
     margin-right: 16px;
   }
