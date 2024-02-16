@@ -1,4 +1,4 @@
-# Project - Russian travel
+# Project - Responsive webpag: Russian travel
 
 **Link to project on GitHub Pages**: https://cristinadaily.github.io/russian-travel/index.html
 
